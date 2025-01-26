@@ -2,10 +2,10 @@ const
   rpcGenerator = require("discordrpcgenerator"),
 
   // Add your client id in the index.js file
-  IMAGE_NAME = "The name of the image",
-  LARGE_TEXT = "Large text on the status",
-  SMALL_TEXT = "Small text on the status",
-  LINK = "https://twitch.tv/SealedSaucer";
+  IMAGE_NAME = "The name of the image", osamason
+  LARGE_TEXT = "Large text on the status",ALWAYS TRUST GOD
+  SMALL_TEXT = "Small text on the status",Watch
+  LINK = https://youtu.be/kiB9qk4gnt4?si=BkdGQCespwKayShJ
  
 module.exports = (client, CLIENT_ID) => rpcGenerator.getRpcImage(CLIENT_ID, IMAGE_NAME)
   .then(image => client.user.setPresence(
